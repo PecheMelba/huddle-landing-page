@@ -1,0 +1,158 @@
+@media all and (min-width: 900px)
+{
+    /* ---------HEADER--------- */
+    header 
+    {
+        background: hsl(193, 100%, 96%)  url("images/bg-hero-desktop.svg") no-repeat;
+
+        padding-bottom: 3em;
+        margin-bottom: 9em;
+    }
+    #header-top-container img
+    {
+        width:15%;
+    }
+    #header-bottom-container
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:90%;
+        
+    }
+    #header-bottom-container img
+    {
+        width:50%;
+        margin: 0;
+    }
+    #header-text-container
+    {
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: left;
+        margin: 0;        
+    }
+    #header-text-container h1
+    {
+        width:52%;
+    }
+    #header-text-container p
+    {
+        width:70%;
+        color: rgb(66, 66, 66);
+    }
+    #get-started-btn
+    {
+        padding:1em 1.5em;
+        width:55%;        
+        margin:0;   
+        text-align: center;   
+    }
+    /* -------FEATURES----- */
+    .feature
+    {
+        width: 70%;
+        margin:0 auto 3em auto;
+        padding: 3em 5em;
+        border-radius: 1em;
+        text-align: left;
+
+        display:flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
+    #flowing-container{flex-direction: row-reverse;}
+    .feature-text-container
+    {
+        width:40%;
+    }
+    .feature-img
+    {
+        width:40%;
+        margin-bottom: 0em;
+    }
+    /* ----------------BUILD PANNEL------------- */
+    #build-pannel
+    { 
+        position:absolute;
+        width: 50%;
+        margin: 0 25%;
+        top:-3em;
+    }
+    #build-title
+    {
+        font-size: 1.7em;
+    }
+    #build-btn
+    {
+        padding: 1em 2em;
+        border-radius: 3em;
+        font-size: 1em;
+        width:40%;
+    }
+    #build-btn:hover
+    {
+        cursor: pointer;
+        opacity: 0.7;
+    }
+    /* -----------FOOTER--------- */
+    footer
+    {
+        text-align: left;
+        padding-top: 8em;
+        margin-top: 17em;
+    }
+    #footer-logo
+    {
+        width:13%;
+        margin-left: 7.5%;
+    }
+    nav
+    {
+        display:flex;
+        justify-content:space-around;
+        align-items: flex-start;
+        width:85%;        
+        font-size: 0.7em;
+        line-height: 1.7em;
+        
+    }
+    ul
+    {
+        margin: 0;
+        width:23%;
+    }
+    #contact-pannel
+    {
+        display:flex;
+        flex-direction:column;
+        width: 35%;
+        margin: 0 5em 0 0;
+        
+    }
+    #social-network
+    {
+        align-self: flex-start;
+        margin: 0;
+        padding: 0;
+        width:15%;
+    }
+    #copyright 
+    {
+        transform: translateY(-3em);
+        text-align: right;
+        font-size:0.7em;
+        margin-right: 3%;
+    }
+    li:hover
+    {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    #social-network img:hover
+    {
+        cursor: pointer;
+        filter: brightness(0) saturate(100%) invert(26%) sepia(88%) saturate(3025%) hue-rotate(311deg) brightness(99%) contrast(105%);
+    }
+}
